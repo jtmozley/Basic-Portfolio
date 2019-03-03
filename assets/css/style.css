@@ -40,7 +40,7 @@ h1, h2 {
     width: 290px;
 }
 
-#name {
+#fullName {
     text-align: center;
     color: #ffffff;
     margin-top: 27px;
@@ -107,4 +107,30 @@ hr {
     color: #777777;
     line-height: 1.8em;
     margin: 0;
+}
+
+.formField {
+    color: #777777;
+}
+
+#name, #mail {
+    width: 900px;
+    height: 24px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #dddddd;
+}
+
+#msg {
+    width: 900px;
+    height: 250px;
+    border: 1px solid #dddddd;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    width: 90px;
+    height: 33px;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
 }
