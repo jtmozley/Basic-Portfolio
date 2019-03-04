@@ -123,6 +123,7 @@ hr {
 #msg {
     width: 900px;
     height: 250px;
+    margin: 8px 0 15px 0;
     border: 1px solid #dddddd;
 }
 
@@ -133,4 +134,16 @@ hr {
     border: none;
     color: #ffffff;
     font-size: 13px;
+}
+
+.linkBlock {
+    margin: 0 auto;
+}
+
+.pLink {
+    margin-right: 33px;
+}
+
+img:nth-of-type(4) {
+    margin-right: 0;
 }
